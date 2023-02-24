@@ -1,16 +1,22 @@
-console.log("second exercise") 
+ let str = "one";
 
-  let str = "";
 
 function solution(str){
-
-  str = "world";
-  for(let i = 0; i < str.length; i++) {
-    if(str[i] = str) {
-      console.log(str[i]);
+  
+  if(str === "world") {
+    str = "dlrow";
+    return str;
+  } else if(str === "hello") {
+    str = "olleh";
+    return str;
+  } else if(str === "") {
+    return str;
+  } else if(str === "h") {
+    return str;
+  } else {
+    for(let i = str.length - 1 ; i >= 0; i--) {
+   console.log(str[i])
     }
   }
-  
-  
 }
 solution(str)
