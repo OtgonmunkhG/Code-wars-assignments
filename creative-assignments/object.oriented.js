@@ -12,8 +12,7 @@ class Person {
 }
 class sayFullName {
   
-    // return this.firstName , this.lastName;
-    
+      
   }
   
   class greetExtraTerrestrials {
